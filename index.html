@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+<body>
+    <div>
+        <h1>Better Recaptcha</h1>
+        <div>
+            <form id="vm33">
+                <label for="username">
+                    <input type="text" placeholder="Username" id="username">
+                </label>
+                <label for="password">
+                    <input type="password" placeholder="Password" id="password">
+                </label>
+                <div>
+                    <button type="submit">Login</button>
+                </div>
+                <div class="g-recaptcha" data-sitekey="your site key"></div>
+            </form>
+        </div>
+    </div>
+</body>
+<script src="sdk.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"></script>
+</html>
