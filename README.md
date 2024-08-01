@@ -1,2 +1,2 @@
 # Better-Recaptcha
-> Modifed Recaptcha Version / Vlaidation with [**frontend/backend**]
+> Modifed Recaptcha Version / Validation with [**frontend/backend**]
